@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+   width: 100%;
+}
+header{
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(rgb(230, 123, 123), rgb(243, 221, 96));
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    /* flex-direction: row; */
+    margin-top: 32px;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px;
+    color: rgb(62, 55, 156);
+    font-family: kemo;
+    font-size: 20px;
+    transition:  color 1s;
+}
+a:hover{
+    cursor: pointer;
+    color: red;
+}
+@font-face{
+    font-family: kemo;
+    src: url(../fonts/PTSansNarrow-Regular.ttf);
+}
+.img-graduat{
+    font-size: 30px;
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+}
+.logo{
+    position: relative;
+    top: 30px;
+    left: -7%;
+    letter-spacing: 1.5px;
+}
+.login{
+    position: relative;
+    left: 16%;
+    top: 30px;
+    letter-spacing: 1.5px;
+}
+h3{
+    font-family: KAREEM;
+    position: relative;
+     top: 290px;
+     right: 25px;
+     letter-spacing: 1.5px;
+}
+    @font-face {
+        font-family: KAREEM;
+        src: url(../fonts/Lobster-Regular.ttf);
+    }
+.img-whats{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 265px;
+    right: 80px;
+}
+.sec-2{
+    text-align: center;
+}
+h2{
+    font-family: kemo;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+    transition: 1s transform, color;
+    letter-spacing: 1.5px;
+}
+h2:hover{
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    transform: translate(15px)
+
+}
+hr{
+    border: 1px solid orangered;
+    margin: auto;
+    width: 200px;
+    margin-top: 25px;
+    transition: 1s transform, color;
+}
+hr:hover{
+    cursor: pointer;
+    transform: scale(3);
+    border: 1px solid green;
+}
+.sec-2 span{
+    margin-top: 10px;
+}
+.passage , p{
+    margin-top: 15px;
+    color: black;
+    opacity: 0.7;
+    word-spacing: 1px;
+}
+.photo{
+    background-image: linear-gradient(rgb(240, 199, 199), rgba(243, 202, 169, 0.192) ,rgb(149, 212, 124));
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around;
+    align-items: center; */
+
+}
+.kk-img{
+    width: 400px;
+    height: 220px;
+    margin: auto;
+    margin-top: 10px;
+}
+.box{
+  width: 100%;
+  height: 100%;
+  transition: 1s transform, border, opacity;
+}
+.box:hover{
+    cursor: pointer;
+    border: 2px solid rgb(0, 4, 255);
+    border-radius: 12px;
+    transform: scale(0.9);
+    opacity: 0.7;
+}
+p{
+    margin: 15px;
+    padding: 3px;
+    letter-spacing: 1.5;
+    word-spacing: 1px;
+    flex-wrap: wrap;
+}
+.mydivison{
+
+    display: flex;
+    
+}
+.mysec{
+    margin-top: 35px;
+    transition: 1s transform, color;
+}
+.mysec:hover{
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    transform: translate(15px);
+}
+.images{
+    margin: 25px;
+    padding: 10px;
+    margin-right: 100px;
+    margin-top: 100px;
+    width: 85%;
+    height: 220px;
+}
+.parg{
+    margin: 10px;
+    margin-top: 8%;
+    margin-left: 25px;
+    color: black;
+    font-weight: bold;
+    opacity: 0.8;
+    word-spacing: 1.5px;
+}
+.imgone{
+    width: 330px;
+    height: 330px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.inpt-1, .inpt-2, .inpt-3, .inpt-4{
+    position: relative;
+    top: -350px;
+    margin: 25px;
+    padding: 8px;
+    width: 380px;
+    border: 1px solid blue;
+}
+textarea{
+    position: relative;
+    top: -300px;
+    margin: 25px;
+    width: 400px;
+    border: 1px solid blue;
+    padding: 5px;
+}
+.inpt{
+    /* display: flex; */
+    /* flex-direction: column; */
+    float: right;
+    width: 120px;
+    height: 60px;
+    margin-right: 25%;
+    margin-bottom: 600px;   
+}
+input[type="submit"]{
+    width: 160px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: rgb(48, 85, 184);
+    color: white;
+    font-family: kemo;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    bottom: 250px;
+    left: 150px;
+    letter-spacing: 1.5px;
+    border: 1px solid rgb(48, 85, 184);
+}
+.Evaluation{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(rgb(124, 196, 192), rgb(121, 228, 126));
+    margin-top: 10%;
+}
+.div-first{
+    position: relative;
+   top: 450px;
+   left: 220px;
+}
+.hr{
+    position: relative;
+    top: 450px;
+    /* left:auto; */
+    margin-left: 42%;
+}
+.images{
+    width: 350px;
+    height: 300px;
+    align-content: flex-start;
+    transition: 1s opacity, border;
+}
+.images:hover{
+    opacity: 0.5;
+    border-top: 4px dotted blue;
+    border-bottom: 4px dotted red;
+}
+.group-box{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+footer{
+    width: auto;
+    height: 200px;
+    background-image: linear-gradient(rgb(230, 123, 123), rgb(243, 221, 96));
+    margin: auto;
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
+    font-size: 25ppx;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    
+}
+.spon{
+    margin: 25px;
+    padding: 10px;
+    position: relative;
+    bottom: 170px;
+    animation-name: kareem;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 28px;
+    font-family: kemo;
+}
+
+.spon:hover{
+    cursor: pointer;
+    animation-play-state: paused;
+    /* text-shadow: 2px 3px blue; */
+    font-weight: bold;
+}
+@keyframes kareem{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 10%;
+    }
+    20%{
+        left: 15%;
+    }
+    30%{
+        left: 20%;
+    }
+    40%{
+        left: 25%;
+    }
+    50%{
+        left: 30%;
+    }
+    60%{
+        left: 35%;
+    }
+    70%{
+        left: 40%;
+    }
+    80%{
+        left: 45%;
+    }
+    90%{
+        left: 50%;
+    }
+    100%{
+        left: 55%;
+    }
+}
+.face-icon,.messnage-icon,.whatsapp-icon,.twitter-icon,.telegram-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+
+    
